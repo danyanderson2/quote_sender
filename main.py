@@ -18,7 +18,7 @@ import unicodedata
 TWITTER_USERNAME = "" # your twitter username here
 TWITTER_PASSWORD = "" # your twitter password here
 GMAIL_APP_PASSWORD = os.environ.get('GMAIL_APP_PASSWORD') # your gmail password app here
-TWITTER_EMAIL = "dany.guimefack@centrale-casablanca.ma"
+TWITTER_EMAIL = "" # enter your twitter email address
 CHROMEDRIVER_PATH = '' # path to your chrome driver. Your browser must be google chrome
 EMAIL_SENDER='' # your email adress
 prog = 0 # saves value of last sent email to prevent an email to be sent twice
