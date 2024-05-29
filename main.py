@@ -62,6 +62,12 @@ with open('finished.txt', 'r', encoding='utf-8') as finished:
     content = finished.read()
 
 
+# make sure the quote is different everyday by incrementing prog and saving in progress file
+prog = score+1
+with open('progress.txt', 'w') as progress:
+    prog = str(prog)
+    progress.write(prog)
+
 # send an email to yourself
 msg = MIMEText(content, 'plain', 'utf-8')
 msg['Subject'] = "Motivational Quote"
@@ -108,11 +114,3 @@ post_button.click()
 time.sleep(7)
 driver.quit()
 
-
-# make sure the quote is different everyday
-prog = score+1
-with open('progress.txt', 'w') as progress:
-    prog = str(prog)
-    progress.write(prog)
-#
-#
