@@ -12,7 +12,7 @@ import os
 import re
 import unicodedata
 
-# NO NEED TO GO BENEATH THIS BOUNDARIES IF YOU'RE A NON DEV :)
+# NO NEED TO GO BENEATH THESE BOUNDARIES IF YOU'RE A NON DEV :)
 ##################################################################################################################
 
 TWITTER_USERNAME = "" # your twitter username here
